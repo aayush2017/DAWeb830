@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Display</title>
+<style>
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: green;
+}
+.box:nth-child(1) {
+	background-color: red;
+}
+.box:nth-child(2) {
+	background-color: blue;
+	display: none;
+}
+.box:nth-child(3) {
+	background-color: orange;
+	visibility: hidden;
+}
+.box:nth-child(4) {
+	background-color: green;
+}
+/*.bg-red { background-color: red; }
+.bg-blue { background-color: blue; }*/
+</style>
+</head>
+<body>
+<div class="box bg-red">Box1</div>
+<div class="box bg-blue">Box2</div>
+<div class="box">Box3</div>
+<div class="box">Box4</div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Tag</title>
+</head>
+<body>
+<h1>Registration Form</h1>
+<form action="abc.php" method="post">
+<pre>
+<label>Search <input list="cnt" autofocus="" required="" ></label>
+
+<label>Fullname <input type="text" name="fnm" autocomplete="on" value="John Cena" readonly=""></label>
+
+<label>Fullname <input type="text" value="John Cena" disabled></label>
+
+<label>Fullname <input type="text" name="fnm" ></label>
+
+<datalist id="cnt">
+	<option>India</option>
+	<option>America</option>
+	<option>Canada</option>
+	<option>Japan</option>
+</datalist>
+
+<label>Select <select>
+	<optgroup label="Laptop">
+		<option>Apple Laptop</option>
+		<option>Lenovo Laptop</option>
+	</optgroup>
+	<optgroup label="Anroid">
+		<option>Lenovo</option>
+		<option>Nokio</option>
+		<option>Moto</option>
+	</optgroup>
+</select></label>
+
+<label>Color  <input type="color" name=""></label>
+
+<label>Mobile <input type="text" name="" maxlength="10" size="10"></label>
+
+<input type="number" name="" min="10" max="50" step="5">
+<input type="text" name="" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+<input type="text" name="" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$">
+<input type="submit" name="" value="Submit"> <input type="reset" name="">
+
+<input type="range" name="">
+<input type="url" name="">
+</pre>
+</form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Float</title>
+<style>
+
+.box {
+	width: 30%;
+	background-color: green;
+	padding: 1%;
+	float: left;
+	border: 2px solid gray;
+}
+.box img {
+	width: 100%;
+	margin-bottom: -4px;
+}
+.box:nth-child(1) {
+	background-color: red;
+}
+.box:nth-child(2) {
+	background-color: blue;
+	display: none;
+	
+}
+.box:nth-child(3) {
+	background-color: orange;
+	float: right;
+}
+.box:nth-child(4) {
+	background-color: green;
+}
+
+</style>
+</head>
+<body>
+<div class="box"><img src="img/1.jpg"></div>
+<div class="box"><img src="img/2.jpg"></div>
+<div class="box"><img src="img/3.jpg"></div>
+</body>
+</html>
