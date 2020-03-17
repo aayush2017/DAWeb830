@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#velit {
+	overflow: hidden;
+	background-color: #f6f6f6;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+#mltr {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#velit-heading {
+	text-align: center;
+	margin-bottom: 5%;
+}
+.velit-box {
+	
+	width: 16%;
+	float: left;
+	border: 1px solid #dcdcdc;
+	text-align: center;
+	padding: 3%;
+	margin-right: 3%;
+}
+.velit-box h3 { color: #b5ba12; margin-top: 5%;margin-bottom: 5%;}
+.velit-box:last-child {
+	margin-right: 0;
+}
